@@ -1,0 +1,114 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://aw40.github.io/.well-known/2210_gx_participant_LMIS.json",
+      "issuer": "did:web:aw40.github.io",
+      "issuanceDate": "2024-09-18T20:15:31.066Z",
+      "credentialSubject": {
+        "id": "https://aw40.github.io/.well-known/2210_gx_participant_LMIS.json",
+        "type": "gx:LegalParticipant",
+        "gx:name": "LMIS AG",
+        "gx:legalName": "LMIS AG",
+        "gx:legalRegistrationNumber": {
+          "id": "https://aw40.github.io/.well-known/2210_gx_registrationnumber_LMIS.json"
+        },
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "DE-NI",
+          "gx:addressCountryCode": "DE",
+          "gx:streetAddress": "Hamburger Str. 24",
+          "gx:postalCode": "49084",
+          "gx:locality": "Osnabrück"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "DE-NI",
+          "gx:addressCountryCode": "DE",
+          "gx:streetAddress": "Hamburger Str. 24",
+          "gx:postalCode": "49084",
+          "gx:locality": "Osnabrück"
+        },
+        "gx:website": "https://www.lmis.de/"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-10-07T18:19:04.884+02:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:aw40.github.io#X509-JWK2020",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TpXNKNhIVvPQ7NH9ic_YOTj4EQmgWmqsNk0B-WKCSvA_q3gEXkQVaxQZneuFi0---vDqJsFJSTvzYK6h_DO23apdXK4jaHMvD6aRoUuIFu1vFZDecV90UPjkkDU8uFXP2Njp_qlZFUNY3S7lD5AL-n3YSUznNDgJBGW1b_IsO6b2iNkihl5b83GX2ogcFDlUo-cF30v4HpGni22giyBjG73ARn3LAI2BWaRXmz6Cz94cT9OVXZlZ0HT3tV-cEQEB8i98rGYk_oSWpmDN_qyRYBMeyVB2V4eSYYXQtEP3LDe_eFFE1Azpuew9N86G2Pdkiy90xZ5VrWjjaeqHMKoy9fCHeEIYrDqrpm_XB_xzqgY6lE0rSqszQW284q64Jb1lyZTb1HFatjq4SECNV9YDx0rSCTghCeUOSHJKMyH7GEJK4wH98ve2PvcTlO8PfEgWXwVXuNtO3MoIAa5BpA0uqONwZpqqsoJfy111p2QSnWj7-XxYlPq6H_QI_5cJGHFVhoPuy5Ic5pbOJQojfQk43jPPFRRUo4DH9Xg1mGpD0WosXnMVAKSrzhn_d8ARpKD8KCW94RD8_fjYUUjDN66MAalsw1diQOCJl_PijNOHJSpHKqZUK3eeH1fUFWbWGzVNOV6rRMwNh9jUiSFAuPv7RfE8A55_GhGJSURu3qKhDhI"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "issuanceDate": "2024-10-07T16:24:44.435Z",
+      "credentialSubject": {
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://aw40.github.io/.well-known/2210_gx_tandc_LMIS.json"
+      },
+      "issuer": "did:web:aw40.github.io",
+      "id": "https://aw40.github.io/.well-known/2210_gx_tandc_LMIS.json",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-10-07T18:24:54.430+02:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:aw40.github.io#X509-JWK2020",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lvXv6i4wb8rNH4EZiNoyouryN4tFNP1UEP0xgKrJVrSZj2v2dyGLeqhDQJ3V0wsowvH0On2py1l-wmi8I8g2W1-dK679Pph7bEGqutHtmJ0W78jZnucMyFzVKp8dpN7ktS-hLKt9mW1u0m8q1FXTj_xxRf8y7P9zDMlQ_uc7lFzoATNNB1raBfaDnVRvpzwkvaxX7NMavz0QYAfgH6IQFpeDJ139Xzi3auV0ljYNiTqZ2hA7M0EAkKI7w8XcjmPeS4xyjQaSQ4FWegy9eOnBDyVqJEHv6QZoHupm_nvOZ1kAuoBogZYtHw99WrNtfPVxW_ql3lJl2QFTsC1Wvm9xZBi3df_tbBfod3HaTYpI67YfU6YH8ymIH-xoSjvyrpiWOxAhRiVfGtdox3doGrJM359M0C6OkGXdZTf8aYgsjnyyeZzzVwz6_F748XQTihkP7Hb7iBcQMkNeN7QWeXoNjymd-tlVKRyfXCD4s_7VM4tOxMpEZn5km_MPJPifSNg5gepzsG2CTs2Nqu7HGykYpC_Pj8tMsDib8NOC1Lb4RKbOkkFW8jXv8JPK0r-eyWfsNv3A21LKJ9enMb-Ylp2OdPl66Fi-bK2lEAsbd6SN6evFYSeJ-HZ60YXvp2ATOu_fGNN9YKpZJqwgKlAANOl-H947IqGI2psCNvs0oMuO4F4"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://aw40.github.io/.well-known/2210_gx_registrationnumber_LMIS.json",
+      "issuer": "did:web:www.delta-dao.com:notary:v1",
+      "issuanceDate": "2024-10-07T16:29:31.438Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://aw40.github.io/.well-known/2210_gx_registrationnumber_LMIS.json",
+        "gx:vatID": "DE211909662",
+        "gx:vatID-countryCode": "DE"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+          "gx:executionDate": "2024-10-07T16:29:31.438Z",
+          "gx:evidenceOf": "gx:vatID"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-10-07T16:29:31.454Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OFHsOwe8mRoCnaMgNMGqwcedACT2XvdLJ4018_j1Zaxfaq3PpLeXCeaq1WOvhlg6foJTgtMvbuPubpqynOn4BfDFHoAzBaCtEsgoLsPLieLNmwVdmixkNyGzOI_YqJA5wp5xIg0lbWY1g6cz8hjm-Q060T7L2-nO_jO8ctp-g_mPbCnc1ED-uyFh483egXJWIOTIE6Pe8ygA-JN0y3ocW5fsc5i0ZTW_-oS1iZUp6L7xz1eu314WqaDyz1xczlYeHyoxjbu4SVzM0i84z2Lfc78NDWUbR-g1lEKRrnokYH43gM2lTm7xQJwxa-00L3Pi-PHrb25Bdh6HayyAwP2bb1u8yFhiZN-ZaZmqZnTOBaqTBv-xQuBHc5VuylbP9_G7K0HIym_05vAdIPacnCDQ2vgryv6tYibNcPUgVblOESnwo5QlAbn9ioMqEmb8ZR0VVg4dmUSzTGyT2ztWImpL638EWXGFyZE-GPcvuqlbMbrVD4aCdGMLHPJ7cgkz-YW-_8GVgyO2N384pUxBlb4WjhTo-QrMqSTgwsKykGYSq1uXMteTBY8IGRBp5OdSYSFkfFBOgexTLXqIHueBDxcyNphyIBGWGAHDdGHXBNOOjUDTW5WUtK8WchExXnlipneLYPUcBr1CYhT9TzlT0KZOnIc479nGt0rvmRg9i8fTkf0"
+      }
+    }
+  ]
+}
