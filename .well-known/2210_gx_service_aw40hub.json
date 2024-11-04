@@ -4,60 +4,92 @@
     "https://w3id.org/security/suites/jws-2020/v1",
     "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
-  "type": "VerifiableCredential",
-  "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
-  "issuer": "did:web:aw40.github.io",
-  "issuanceDate": "2024-11-04T15:54:21.613Z",
-  "credentialSubject": {
-    "id": "did:op:ed4c5162bf2bfbac3eec1f4148bcda20bb4fc2d3c01f20f7ac8d55f416524b39",
-    "type": "gx:ServiceOffering",
-    "gx:providedBy": {
-      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json"
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://wizard.lab.gaia-x.eu/api/credentials/Lg6BMfUw47oH9asdSS8hsj8igGjaaWdzswP5orD3nWVLsjY4raurGUPH9HsM1YYoiBNzQ5E1xLMiZBSJm3ADRPvMgW6NpLKhTnV3qYq4XavMcTZqgMW7HqYEyjCTRLPeu7tnrHhoBws5r5pFSVBdJ33R938sfNnHrw1gZivFBN3NRvLs5AgKX4jsms3rq4SYKNbivDPMKrWTyHouPfKLuRyccfW6xGh9T4JxqqJUXF9tLWirhs1JnyMgFdMrWXudhK7EvA6bAxMbSKRdCdi5NeXEv7rJ16EtKDPFPvXfZ8FsrWXVxuHNnePUTbd5NHNBiJJmaoqe3VVowgaHkoZ8AuKuH8QfeX87HN57UppRZHgpLXsR7trs2uMJ9vQXQrB9CSQ8Y1wUAsMSYhgMvaa6REu9sduxNzuqprxiTKKgD3Lrej5MXzfssZDpauL8Tb7WTtXAnbpc7dJBf78R1wwY1yXui7Q1dnnF9MGjGn9Rbj17hCzEr8Smctg5d8r7zkpWtLtQiT5Y1D4wxwkGRyU2JUt2mL2x6DJMbHeoDTSbJe9e5xun4WuAYUw3ZQEAj6KNy1TKPH3Hqg3RzvwCbtD84rQm6trhoEe2S5LDgthRXde1eWoHiyTfkzYs1MRzNgiHFahCLWAvYX2spgMS5fN2sDpD1N24ekcBiqRw9SfGsLiBiZpwGKM5NpCsFTcbnxBiJpwpQtk17tAYBeZb1iG7odGXfPc8zq1vnYdZXvxCJdLRNjYDynczpBLetvRmNjQShgoCiZszc1bs3HBCHff5PhrqzC8DiyKg3VcZwnsYj9UPyGByZZJJ9yG2jNQ8Yik1V9cBs25jMDJg3K55d741LyAyPe9Msr1HjTiKARdwtUKXNAyF3WL1AV5ZREt41P55WNjDjHPgQfYrkNEgToe6q9FkqDfqw3oBZoejWcQ8m3YNLoJZMsUoHLnoQEkrw2cU7zbnyYtX5M4hmQ8rtz4UQn5uz3VdAtvZHZkgYF3igvCBma3D3jPhP9YUZG4R7tmqCwcyNJ2S17ZouPfkg74xLcPGKPajnoptYhY2CmMd12DwF5Gv7WU3zEZ6oFsdrt4ss16?uid=ada2efab-2d5b-4a79-a57c-edbb857c7cdc",
+  "issuer": "did:web:www.delta-dao.com:compliance:v1",
+  "issuanceDate": "2024-11-04T16:48:45.437Z",
+  "expirationDate": "2025-02-02T16:48:45.437Z",
+  "credentialSubject": [
+    {
+      "type": "gx:compliance",
+      "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
+      "gx:integrity": "sha256-9bce2471ea51093477664e94c5c98d42cf54bf9a5e3c08d410ee5b74c947ca96",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:ServiceOffering"
     },
-    "gx:maintainedBy": {
-      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json"
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json",
+      "gx:integrity": "sha256-b61305ffb56c1850f27150a2d357d09f16ff18091934ea720a279d3ce32294c0",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:ServiceOffering"
     },
-    "gx:serviceOffering:name": "AW 4.0 Hub",
-    "gx:serviceOffering:description": "A decentralized diagnostic tool that uses AI models and modern data processing technologies to efficiently and securely perform vehicle diagnostics.",
-    "gx:policy": "default: allow",
-    "gx:termsAndConditions": {
-      "gx:URL": "https://aw40.github.io/.well-known/terms.md",
-      "gx:hash": "1a1cb1640af70c54081868ca88b455135307c905cb76c0f8e3aa2d592d6282ee"
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_service_contracting_provider.json",
+      "gx:integrity": "sha256-81c404b006ca43d38128096960795f18fa2cb10e8e16e327ec0a53c7be337cb2",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:ServiceOffering"
     },
-    "gx:dataAccountExport": {
-      "gx:requestType": "email",
-      "gx:accessType": "digital",
-      "gx:formatType": "application/zip"
+    {
+      "type": "gx:compliance",
+      "id": "https://aw40.github.io/.well-known/2210_gx_tandc_LMIS.json",
+      "gx:integrity": "sha256-37806c050f1fcbfe5b1a1890bb04dab5886cae698330e8a6d1edb035e082be65",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:GaiaXTermsAndConditions"
     },
-    "gx:serviceOffering:dataProtectionRegime": [
-      "GDPR2016"
-    ],
-    "gx:serviceOffering:gdpr": [
-      {
-        "gx:serviceOffering:imprint": "https://www.lmis.de/impressum"
-      },
-      {
-        "gx:serviceOffering:privacyPolicy": "https://www.lmis.de/datenschutz"
-      }
-    ],
-    "gx:dependsOn": [
-      {
-        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
-      },
-      {
-        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_contracting_provider.json"
-      }
-    ]
-  },
+    {
+      "type": "gx:compliance",
+      "id": "https://aw40.github.io/.well-known/2210_gx_registrationnumber_LMIS.json",
+      "gx:integrity": "sha256-f511e99cb6b46404c8f44806e058aa898ebbac0f46b565662860c802b88bbc2d",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:legalRegistrationNumber"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json",
+      "gx:integrity": "sha256-c6aa996100d66f8bdc0c964ee1598066df471f8ba97e4d64e3594e1cda7f9944",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:LegalParticipant"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber.json",
+      "gx:integrity": "sha256-f5c70a8f3ec3212bd4abde50c4ee3cca8cdc55847db54b6ca95739668107eb1e",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:legalRegistrationNumber"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json",
+      "gx:integrity": "sha256-cef1273956f75d0684472561e865e9d2b0965514cfd1d5f1ffed9a8f74c87993",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:LegalParticipant"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+      "gx:integrity": "sha256-484976de8733c247efd3c2d184471de26c02181d5720081eec513120f247276f",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:GaiaXTermsAndConditions"
+    }
+  ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-11-04T17:47:56.381+01:00",
+    "created": "2024-11-04T16:48:45.892Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:aw40.github.io#X509-JWK2020",
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/security/suites/jws-2020/v1"
-    ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fg9qRavigE6PljswvvT1WZT3wKxNV-RH5SFdaPt7f9Q1kAKq9cQEJUn8TariIWhFwzosd3vCvT4JOGCTZSrg8xwPsjFSzKv6FvKzCMaG4Usy4IzWoihlrklvDvzJcv2e8XiyTP4TCs75itrrowR8vRknc3LJkzEjXP26WKQuCk57geRqNJYjvlpUkqRkIXJ9LRZRuPBwUi3V0139r_QG8OICwiqTgw2ntWcxXB3Hi6X0QcAbWleSpJTqDCkR9YxE34hf6Z5ek60M48d9cJpZrhAdHDxjPTAOHCcPK70zfx6WHTFvfCm-IsgeD6vEE_U2AZfYtOLsR1TnDNUclpyw7rtsImEK0BGk1_9ehEA_WhE1DK0UK_k8sFdi_MAldVh3VdSZtYW9tVI8L3mAW3JZG6a2wQT3Z8VHVeFesC2jxRD0-wyG8A9_949ZUD4PZZ4auIAnVVcnBjFzPjKIy7PCTrSYz5iCFkJ6kGT8R1Mb1yntoIzxpUajo3mF0FjOqaOlVatP0j-amnvLHKvH_9-lFeDhcnhZsAZXNEtoxqHkfD6M9D27gFnZPJ8aFzh17tNerrpOcYlfpdbqhVX7i5KV7GjDAK7IyEZ2w8fx2xazJ0LMzJCuv7m3vB2-p4BGabdZvOGzYqBAEzBY7t0t61StxsDhWsW3_tdB5wG06tNEDkU"
+    "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QcMogsDYHxXKNiRWcqHxZ_JHr5CZf8cvSZfkDozV_YLnv2O1WpTEOBWa7wPDb_CWKEAhgggPY1MlJjhrXYW5PDiLKC2HS9-2uMwKv8l3NAYD18mhmgSxV8m5unZf8aYHhVE_w2oRWkfbu9va9tb8OeGMjUrX-2hSsYdC_0CtGc4HRpKRO-ERhJl5-iWDu1j0IQftwpUuUGp1YAnmdBJ_QTRdyS3s9Q8vPK1M58ooLzdDqLgnUlCYr__13il-8u572Zv0BV2s7NGZMxhAnmrNNcKk6QGCr4_SAljT830OCTw_bTud0ODgqtfENQdGIQvqaOozOfFXc-tz3DN0RlgK64XcdI8HarbzZYdI3zzLeiMt63rUhA8If2kn9UWCS9aoTilcSXl5--oYf02uvAHF6XJJbBRwhF-w-5CppPiRtklqQ272eXG9JqwRwW47DcH5y-lnkDc3EFiybo0PBxdwPKD68JrWRCleMajaUSYNd_DeI0rwJpDFwPBUEqDXMZnfh3kqpTqro3iZlENzc0M2bC0ltBvdV7SEtLgR_pmLX23MHiuzeF7IoGQdvVo5UPSHYrolBgAqVoIIIRIL-PaNtOU1-S7De6Hc-Xa--qdkn39zIWkTfaZXWPZJcAjjH9IY3am2zVoO_5tZ0D2WEsRi2APbK6rfMZPy1P3PGHl_Bo0"
   }
 }
