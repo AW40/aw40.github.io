@@ -7,7 +7,7 @@
   "type": "VerifiableCredential",
   "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
   "issuer": "did:web:aw40.github.io",
-  "issuanceDate": "2024-11-04T10:53:56.844Z",
+  "issuanceDate": "2024-11-04T11:23:53.554Z",
   "credentialSubject": {
     "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
     "type": "gx:ServiceOffering",
@@ -21,8 +21,8 @@
     "gx:serviceOffering:description": "A decentralized diagnostic tool that uses AI models and modern data processing technologies to efficiently and securely perform vehicle diagnostics.",
     "gx:policy": "default: allow",
     "gx:termsAndConditions": {
-      "gx:URL": "https://www.lmis.de/fileadmin/user_upload/documents/lmis-ag-doc-agb-2024-09-26.pdf",
-      "gx:hash": "ead82b74d192611ca2acc98a6e279dfc5bc9a7d8ee1d954bb54c7d8688486407"
+      "gx:URL": "https://aw40.github.io/.well-known/terms.md",
+      "gx:hash": "1a1cb1640af70c54081868ca88b455135307c905cb76c0f8e3aa2d592d6282ee"
     },
     "gx:dataAccountExport": {
       "gx:requestType": "email",
@@ -56,13 +56,13 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-11-04T11:53:56.857+01:00",
+    "created": "2024-11-04T12:23:53.565+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:aw40.github.io",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gQAPQCXa-mjnxEKOwPIdPN4oz758bJ16zPb4bCf7JncBVWDE3DwYYRkmZ42UKmoKPzMqtW7ngSuERm3mWOJoZyNpQv2Y88tVIz9FtGQm-Hf7ZjDRWC8EdoXqemaKCE2tLwjXKOPailL_wwx38YuW_kNZ4YHhmjMH7fRNLNfmwqOG_I9465c0LFYkBFWP4DP422-qneDmw8u7pnVnTq6SFbbNs25Z6FQ9JGvtkH_a_jEMaDH-l3syXtICwqiFGr8GPexurvsZAsnEj3WWhSzUveVUp1as-saDluh-y5Y6iczfaZfODn6mlJofPBmWILNcGZnDfLvucJJhW_0cqnW0VxeLhgqCh1XhLhHAZpXYUXruss9e9NaA1wtYKaZvexuECgxxCNBVflEUl-n7GazUdMxa2QVhZpl-eic88hk-oeipKbpa5Z5GOQX2-Kh4ijrK4QxYXUj4XtOiu1kXBrKbl2un6kJuYdovxU3kRiM5fWPTgK3LOn42SKdsXTaUyO0whveULjSprEo_BvA9E0FG1P8cgnbJ1HHK8qrfy-73K-OzAI-MxF-EjhuF7geLvGuqPThjEtDVZkV7nNMnwwkn8Ga1uQlnfh4zUGd-bu-FrncllT7O-dV64cFC6RUQk6_mFFtR7RHXyg9bvQ7NMi3zX136jgfIWbmmShFi7GvxBQc"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WxdE_9qYJDlFd50C27xUe_ham5QE2l30R3M5PSAV_tkXgf74_iVEKWD5EMMMcZhYjC516oXCvKM6UBVN5O4rDZUYBGsMA_oG2WQwDTYoEYlWO6VQ9XMQKgFR40LSMkY9D6oPc35o-04snb_cKspfjok-CWCufrhkz7asMK_DeluY64mhklvnaVHfr91iRNzTVFQankwTvzmT6lwZVQyg02DBHCmBbFOzCFVc7otnwnMH81CmZoPhxiVOGLkUzpOP3Z5YYcPghiSph-V5BMgRwBY4KiOX3yAoFOu1neYqqkEDHQTd35zw3SJXwPaA9VxIZD5J0K2EX69JesUxBjjL3cP-pYvAjpaqLpWpCioqGN3QO-roAy3tB7SHdNSe9cWVppy3sQD4E2tSF295VX5Pk7r6FCVs4gzkOun5X6Gg2i3EYqefRNJkZ4CwmIQD4VJwh-icaxK9rNIr6Y1i6cRV-bQ7lkxPIZCsI4_cRGG7Xtn_bUGXjm0GBZD_X6sj3F3eB7wbehIzRBE9cuvzlD1ifUf3f1jNn_ZyranFn4bnE92h4lP-BLNwhBqm2n--gTRYTO7cTFSSVnHVTXH3vt17XRRBw4C3Qzdt9SoDCTvJcsn69TnBIVgb108VxkZdljuUXP1WC0atNnEmNcvSDAnPhi6ujUcZ_LHfTnR_HK-Myz8"
   }
 }
