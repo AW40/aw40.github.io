@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
+  "issuer": "did:web:aw40.github.io",
+  "issuanceDate": "2024-11-04T10:53:56.844Z",
+  "credentialSubject": {
+    "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
+    "type": "gx:ServiceOffering",
+    "gx:providedBy": {
+      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json"
+    },
+    "gx:maintainedBy": {
+      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json"
+    },
+    "gx:serviceOffering:name": "AW 4.0 Hub",
+    "gx:serviceOffering:description": "A decentralized diagnostic tool that uses AI models and modern data processing technologies to efficiently and securely perform vehicle diagnostics.",
+    "gx:policy": "default: allow",
+    "gx:termsAndConditions": {
+      "gx:URL": "https://www.lmis.de/fileadmin/user_upload/documents/lmis-ag-doc-agb-2024-09-26.pdf",
+      "gx:hash": "ead82b74d192611ca2acc98a6e279dfc5bc9a7d8ee1d954bb54c7d8688486407"
+    },
+    "gx:dataAccountExport": {
+      "gx:requestType": "email",
+      "gx:accessType": "digital",
+      "gx:formatType": "application/zip"
+    },
+    "gx:serviceOffering:dataProtectionRegime": [
+      "GDPR2016"
+    ],
+    "gx:serviceOffering:gdpr": [
+      {
+        "gx:serviceOffering:imprint": "https://www.lmis.de/impressum"
+      },
+      {
+        "gx:serviceOffering:privacyPolicy": "https://www.lmis.de/datenschutz"
+      }
+    ],
+    "gx:dependsOn": [
+      {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
+      },
+      {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_contracting_provider.json"
+      }
+    ],
+    "gx:aggregationOf": [
+      {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_accesspoint_2.json"
+      }
+    ]
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-04T11:53:56.857+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:aw40.github.io",
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gQAPQCXa-mjnxEKOwPIdPN4oz758bJ16zPb4bCf7JncBVWDE3DwYYRkmZ42UKmoKPzMqtW7ngSuERm3mWOJoZyNpQv2Y88tVIz9FtGQm-Hf7ZjDRWC8EdoXqemaKCE2tLwjXKOPailL_wwx38YuW_kNZ4YHhmjMH7fRNLNfmwqOG_I9465c0LFYkBFWP4DP422-qneDmw8u7pnVnTq6SFbbNs25Z6FQ9JGvtkH_a_jEMaDH-l3syXtICwqiFGr8GPexurvsZAsnEj3WWhSzUveVUp1as-saDluh-y5Y6iczfaZfODn6mlJofPBmWILNcGZnDfLvucJJhW_0cqnW0VxeLhgqCh1XhLhHAZpXYUXruss9e9NaA1wtYKaZvexuECgxxCNBVflEUl-n7GazUdMxa2QVhZpl-eic88hk-oeipKbpa5Z5GOQX2-Kh4ijrK4QxYXUj4XtOiu1kXBrKbl2un6kJuYdovxU3kRiM5fWPTgK3LOn42SKdsXTaUyO0whveULjSprEo_BvA9E0FG1P8cgnbJ1HHK8qrfy-73K-OzAI-MxF-EjhuF7geLvGuqPThjEtDVZkV7nNMnwwkn8Ga1uQlnfh4zUGd-bu-FrncllT7O-dV64cFC6RUQk6_mFFtR7RHXyg9bvQ7NMi3zX136jgfIWbmmShFi7GvxBQc"
+  }
+}
