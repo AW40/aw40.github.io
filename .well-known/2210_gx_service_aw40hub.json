@@ -4,45 +4,60 @@
     "https://w3id.org/security/suites/jws-2020/v1",
     "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
-  "type": [
-    "VerifiableCredential"
-  ],
-  "id": "https://aw40.github.io/.well-known/2210_gx_participant_LMIS.json",
+  "type": "VerifiableCredential",
+  "id": "https://aw40.github.io/.well-known/2210_gx_service_aw40hub.json",
   "issuer": "did:web:aw40.github.io",
-  "issuanceDate": "2024-09-18T20:15:31.066Z",
+  "issuanceDate": "2024-11-04T15:54:21.613Z",
   "credentialSubject": {
-    "id": "https://aw40.github.io/.well-known/2210_gx_participant_LMIS.json",
-    "type": "gx:LegalParticipant",
-    "gx:name": "LMIS AG",
-    "gx:legalName": "LMIS AG",
-    "gx:legalRegistrationNumber": {
-      "id": "https://aw40.github.io/.well-known/2210_gx_registrationnumber_LMIS.json"
+    "id": "did:op:ed4c5162bf2bfbac3eec1f4148bcda20bb4fc2d3c01f20f7ac8d55f416524b39",
+    "type": "gx:ServiceOffering",
+    "gx:providedBy": {
+      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json"
     },
-    "gx:headquarterAddress": {
-      "gx:countrySubdivisionCode": "DE-NI",
-      "gx:addressCountryCode": "DE",
-      "gx:streetAddress": "Hamburger Str. 24",
-      "gx:postalCode": "49084",
-      "gx:locality": "Osnabrück"
+    "gx:maintainedBy": {
+      "id": "https://aw40.github.io/.well-known/2210_gx_vp_LMIS.json"
     },
-    "gx:legalAddress": {
-      "gx:countrySubdivisionCode": "DE-NI",
-      "gx:addressCountryCode": "DE",
-      "gx:streetAddress": "Hamburger Str. 24",
-      "gx:postalCode": "49084",
-      "gx:locality": "Osnabrück"
+    "gx:serviceOffering:name": "AW 4.0 Hub",
+    "gx:serviceOffering:description": "A decentralized diagnostic tool that uses AI models and modern data processing technologies to efficiently and securely perform vehicle diagnostics.",
+    "gx:policy": "default: allow",
+    "gx:termsAndConditions": {
+      "gx:URL": "https://aw40.github.io/.well-known/terms.md",
+      "gx:hash": "1a1cb1640af70c54081868ca88b455135307c905cb76c0f8e3aa2d592d6282ee"
     },
-    "gx:website": "https://www.lmis.de/"
+    "gx:dataAccountExport": {
+      "gx:requestType": "email",
+      "gx:accessType": "digital",
+      "gx:formatType": "application/zip"
+    },
+    "gx:serviceOffering:dataProtectionRegime": [
+      "GDPR2016"
+    ],
+    "gx:serviceOffering:gdpr": [
+      {
+        "gx:serviceOffering:imprint": "https://www.lmis.de/impressum"
+      },
+      {
+        "gx:serviceOffering:privacyPolicy": "https://www.lmis.de/datenschutz"
+      }
+    ],
+    "gx:dependsOn": [
+      {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
+      },
+      {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_contracting_provider.json"
+      }
+    ]
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-10-07T18:19:04.884+02:00",
+    "created": "2024-11-04T17:47:56.381+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:aw40.github.io#X509-JWK2020",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TpXNKNhIVvPQ7NH9ic_YOTj4EQmgWmqsNk0B-WKCSvA_q3gEXkQVaxQZneuFi0---vDqJsFJSTvzYK6h_DO23apdXK4jaHMvD6aRoUuIFu1vFZDecV90UPjkkDU8uFXP2Njp_qlZFUNY3S7lD5AL-n3YSUznNDgJBGW1b_IsO6b2iNkihl5b83GX2ogcFDlUo-cF30v4HpGni22giyBjG73ARn3LAI2BWaRXmz6Cz94cT9OVXZlZ0HT3tV-cEQEB8i98rGYk_oSWpmDN_qyRYBMeyVB2V4eSYYXQtEP3LDe_eFFE1Azpuew9N86G2Pdkiy90xZ5VrWjjaeqHMKoy9fCHeEIYrDqrpm_XB_xzqgY6lE0rSqszQW284q64Jb1lyZTb1HFatjq4SECNV9YDx0rSCTghCeUOSHJKMyH7GEJK4wH98ve2PvcTlO8PfEgWXwVXuNtO3MoIAa5BpA0uqONwZpqqsoJfy111p2QSnWj7-XxYlPq6H_QI_5cJGHFVhoPuy5Ic5pbOJQojfQk43jPPFRRUo4DH9Xg1mGpD0WosXnMVAKSrzhn_d8ARpKD8KCW94RD8_fjYUUjDN66MAalsw1diQOCJl_PijNOHJSpHKqZUK3eeH1fUFWbWGzVNOV6rRMwNh9jUiSFAuPv7RfE8A55_GhGJSURu3qKhDhI"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fg9qRavigE6PljswvvT1WZT3wKxNV-RH5SFdaPt7f9Q1kAKq9cQEJUn8TariIWhFwzosd3vCvT4JOGCTZSrg8xwPsjFSzKv6FvKzCMaG4Usy4IzWoihlrklvDvzJcv2e8XiyTP4TCs75itrrowR8vRknc3LJkzEjXP26WKQuCk57geRqNJYjvlpUkqRkIXJ9LRZRuPBwUi3V0139r_QG8OICwiqTgw2ntWcxXB3Hi6X0QcAbWleSpJTqDCkR9YxE34hf6Z5ek60M48d9cJpZrhAdHDxjPTAOHCcPK70zfx6WHTFvfCm-IsgeD6vEE_U2AZfYtOLsR1TnDNUclpyw7rtsImEK0BGk1_9ehEA_WhE1DK0UK_k8sFdi_MAldVh3VdSZtYW9tVI8L3mAW3JZG6a2wQT3Z8VHVeFesC2jxRD0-wyG8A9_949ZUD4PZZ4auIAnVVcnBjFzPjKIy7PCTrSYz5iCFkJ6kGT8R1Mb1yntoIzxpUajo3mF0FjOqaOlVatP0j-amnvLHKvH_9-lFeDhcnhZsAZXNEtoxqHkfD6M9D27gFnZPJ8aFzh17tNerrpOcYlfpdbqhVX7i5KV7GjDAK7IyEZ2w8fx2xazJ0LMzJCuv7m3vB2-p4BGabdZvOGzYqBAEzBY7t0t61StxsDhWsW3_tdB5wG06tNEDkU"
   }
 }
